@@ -29,7 +29,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/* Firefox */
+/* Navegador Firefox */
 input[type=number] {
   -moz-appearance: textfield;
 }
