@@ -200,10 +200,8 @@ body{
     cursor: pointer;
     transition: all .4s ease;
 }
-.logo img:hover{
-    opacity: 1;
-    transform: rotate(-15deg);
-}
+
+
 #navigation-bar img{
     height: 60px;
     position: absolute;
@@ -213,10 +211,7 @@ body{
     opacity: .8;
     transition: all .4s ease;
 }
-#navigation-bar img:hover{
-    opacity: 1;
-    transform:rotate(-15deg);
-}
+
 .header-image img{
     height: 100vh;
     float: right;
@@ -700,7 +695,7 @@ body{
     font-family: poppins;
     justify-content: center;
     transition: all .4s ease;
-    width:84%;
+    width:76%;
     border-radius: 10px;
     background: #c70039;
 }
@@ -713,7 +708,7 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width:43%;
+    width:63%;
     border-radius: 10px;
     background: #c70039;
 }
@@ -752,6 +747,58 @@ body{
     align-items: center;
     justify-content: center;
     width:80%;
+    border-radius: 10px;
+    transition: all .4s ease;
+    background: #c70039;
+}
+.typescript-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:41%;
+    border-radius: 10px;
+    transition: all .4s ease;
+    background: #c70039;
+}
+.reactjs-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:48%;
+    border-radius: 10px;
+    transition: all .4s ease;
+    background: #c70039;
+}
+.firebase-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:45%;
+    border-radius: 10px;
+    transition: all .4s ease;
+    background: #c70039;
+}
+.wordpress-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:75%;
     border-radius: 10px;
     transition: all .4s ease;
     background: #c70039;
